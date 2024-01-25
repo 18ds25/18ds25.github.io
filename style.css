@@ -1,17 +1,9 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #000080;
-    background-color: #f4f4f4;
-}
-
 header {
-    background-color: #000080;
+    background-color: #2E8B57; 
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0; 
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3); 
 }
 
 header nav ul {
@@ -21,12 +13,21 @@ header nav ul {
 
 header nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 header nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.2rem; 
+    font-weight: bold;
+    padding: 5px 10px; 
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover, header nav ul li a:focus {
+    background-color: #3CB371; 
+    border-radius: 5px; 
 }
 
 main {
@@ -34,12 +35,35 @@ main {
     text-align: center;
 }
 
-footer {
-    background-color: #000080;
-    color: #fff;
+.team-list {
+    background-color: #f4f4f4;
     text-align: center;
-    padding: 10px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.team-list h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.team-list .member h3 {
+    color: #5B5BFF;
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+.team-list.member p {
+    color: #000;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.team-list .member a {
+    color: #5B5BFF;
+    text-decoration: none;
+    font-size: 1em;
 }

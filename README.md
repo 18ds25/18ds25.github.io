@@ -1,5 +1,5 @@
 ### CMPE 322 / CISC 326 Group 3
-- [ ] A0: Website - Due Jan 29, 11:59 PM
+- [x] A0: Website - Due Jan 29, 11:59 PM
 - [ ] A1: Conceptual Arch. Report - Due Feb 18, 11:59 PM
 - [ ] A1: Conceptul Arch. Slides and Video - Due Feb 18, 11:59 PM
 - [ ] A2: Concrete Arch. Report - Due Mar 22, 11:59 PM

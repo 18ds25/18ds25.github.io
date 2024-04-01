@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Architectures</title>
+<style>
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .gallery figure {
+        margin: 0;
+        text-align: center;
+    }
+    
+    .gallery img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .gallery figcaption {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+
+<h1>My Image Gallery</h1>
+
+<div class="gallery">
+    <figure>
+        <img src="images/conceptual.png" alt="Conceptual">
+        <figcaption>Conceptual Architecture</figcaption>
+    </figure>
+    <figure>
+        <img src="images/concrete.png" alt="Concrete">
+        <figcaption>Concrete Architecture</figcaption>
+    </figure>
+</div>
+
+</body>
+</html>
